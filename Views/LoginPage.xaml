@@ -26,6 +26,20 @@
 
             <VerticalStackLayout Spacing="15">
 
+                <Entry
+                    Placeholder="Email"
+                    Keyboard="Email"
+                    HeightRequest="45"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+
+                <Entry
+                    Placeholder="Password"
+                    IsPassword="True"
+                    HeightRequest="45"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+
             </VerticalStackLayout>
 
         </Border>
