@@ -4,13 +4,21 @@
              BackgroundColor="White"
              Title="Profile">
 
-    <VerticalStackLayout Padding="30" Spacing="20">
+    <VerticalStackLayout Padding="25" Spacing="20">
 
-        <Image
-            Source="ictu.png"
-            HeightRequest="120"
-            WidthRequest="120"
-            HorizontalOptions="Center"/>
+        <Frame
+                HeightRequest="130"
+                WidthRequest="130"
+                CornerRadius="65"
+                IsClippedToBounds="True"
+                HorizontalOptions="Center"
+                HasShadow="True"
+                BackgroundColor="White">
+
+            <Image
+                    Source="ictu.png"
+                    Aspect="AspectFill"/>
+        </Frame>
 
         <Border
             StrokeThickness="0"
