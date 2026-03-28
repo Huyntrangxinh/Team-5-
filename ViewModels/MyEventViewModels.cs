@@ -19,13 +19,11 @@ namespace Campus_Activity_Manager.ViewModels
 
 		public ObservableCollection<Event> MyEventsList { get; } = new();
 
-		// Task 1.5: Constructor with IMyEventService injection
 		public MyEventsViewModel(IMyEventService myEventService)
 		{
 			_myEventService = myEventService;
 		}
 
-		// Task 1.6: Load data from Service into ObservableCollection
 		[RelayCommand]
 		private async Task LoadMyEvents()
 		{
@@ -50,7 +48,6 @@ namespace Campus_Activity_Manager.ViewModels
 			}
 		}
 
-		// Task 1.7: Unregister command
 		[RelayCommand]
 		private async Task Unregister(Event eventItem)
 		{
