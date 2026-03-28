@@ -18,38 +18,8 @@ public class CategoryService : ICategoryService
         return Task.FromResult(_categories.ToList());
     }
 
-    public Task<Category?> GetCategoryByIdAsync(int id)
-    {
-        return Task.FromResult(_categories.FirstOrDefault(c => c.CategoryId == id));
-    }
-
     public Task<List<Category>> GetCategoriesByTypeAsync(CategoryType type)
     {
         return Task.FromResult(_categories.Where(c => c.CategoryType == type).ToList());
-    }
-
-    public Task AddCategoryAsync(Category category)
-    {
-        _categories.Add(category);
-        return Task.CompletedTask;
-    }
-
-    public Task UpdateCategoryAsync(Category category)
-    {
-        var existing = _categories.FirstOrDefault(c => c.CategoryId == category.CategoryId);
-        if (existing != null)
-        {
-            _categories.Remove(existing);
-            _categories.Add(category);
-        }
-        return Task.CompletedTask;
-    }
-
-    public Task DeleteCategoryAsync(int id)
-    {
-        var category = _categories.FirstOrDefault(c => c.CategoryId == id);
-        if (category != null)
-            _categories.Remove(category);
-        return Task.CompletedTask;
     }
 }
