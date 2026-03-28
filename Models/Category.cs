@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace Campus.Models;
 
-public class Category
+public partial class Category : ObservableObject
 {
     [Key]
     public int CategoryId { get; set; }
@@ -14,6 +15,10 @@ public class Category
 
     [MaxLength(500)]
     public string? CategoryDescription { get; set; }
+
+    public string Color { get; set; } = "#0078D4";
+
+    public string Icon { get; set; } = "📌";
 
     public CategoryType CategoryType { get; set; }
 
