@@ -32,6 +32,7 @@ namespace Campus.ViewModels
                 email = value;
                 OnPropertyChanged(nameof(Email));
                 OnPropertyChanged(nameof(IsEmailValid));
+                OnPropertyChanged(nameof(EmailBackgroundColor));
                 ((Command)LoginCommand).ChangeCanExecute();
             }
         }
@@ -45,6 +46,7 @@ namespace Campus.ViewModels
                 password = value;
                 OnPropertyChanged(nameof(Password));
                 OnPropertyChanged(nameof(IsPasswordValid));
+                OnPropertyChanged(nameof(PasswordBackgroundColor));
                 ((Command)LoginCommand).ChangeCanExecute();
             }
         }
@@ -66,6 +68,26 @@ namespace Campus.ViewModels
         public bool IsEmailValid => !string.IsNullOrWhiteSpace(Email) && Regex.IsMatch(Email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
         public bool IsPasswordValid => !string.IsNullOrWhiteSpace(Password) && Password.Length >= 3;
         public bool HasError => !string.IsNullOrWhiteSpace(ErrorMessage);
+
+        public Color EmailBackgroundColor
+        {
+            get
+            {
+                if (string.IsNullOrWhiteSpace(Email))
+                    return Color.FromArgb("#F1F5F9");
+                return IsEmailValid ? Color.FromArgb("#F1F5F9") : Color.FromArgb("#FFE0E0");
+            }
+        }
+
+        public Color PasswordBackgroundColor
+        {
+            get
+            {
+                if (string.IsNullOrWhiteSpace(Password))
+                    return Color.FromArgb("#F1F5F9");
+                return IsPasswordValid ? Color.FromArgb("#F1F5F9") : Color.FromArgb("#FFE0E0");
+            }
+        }
 
         public ICommand LoginCommand { get; }
 
