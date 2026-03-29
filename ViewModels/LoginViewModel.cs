@@ -1,9 +1,19 @@
 ﻿using System.ComponentModel;
+using System.Windows.Input;
+using Campus.Services;
 
 namespace Campus.ViewModels
 {
     public class LoginViewModel : INotifyPropertyChanged
     {
+        private readonly UserService _userService;
+
+        public LoginViewModel()
+        {
+            _userService = new UserService();
+            LoginCommand = new Command(OnLogin);
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string name)
@@ -31,6 +41,13 @@ namespace Campus.ViewModels
                 password = value;
                 OnPropertyChanged(nameof(Password));
             }
+        }
+
+        public ICommand LoginCommand { get; }
+
+        private async void OnLogin()
+        {
+            
         }
     }
 }
