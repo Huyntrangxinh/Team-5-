@@ -1,4 +1,4 @@
-﻿namespace Campus_Activity_Manager.Models
+﻿namespace Campus.Models
 {
 	public class Event
 	{
