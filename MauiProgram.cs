@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Campus.Services;
+using Campus.ViewModels;
 
 namespace Campus
 {
@@ -17,6 +18,7 @@ namespace Campus
                 });
 
             builder.Services.AddSingleton<ICategoryService, CategoryService>();
+            builder.Services.AddTransient<CategoryViewModel>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
