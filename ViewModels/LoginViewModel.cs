@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Input;
 using Campus.Services;
+using Campus.Session;
 
 namespace Campus.ViewModels
 {
@@ -47,11 +48,27 @@ namespace Campus.ViewModels
 
         private async void OnLogin()
         {
+            // Validate
             if (string.IsNullOrWhiteSpace(Username) ||
                 string.IsNullOrWhiteSpace(Password))
             {
                 await App.Current.MainPage.DisplayAlert("Error", "Please enter all fields", "OK");
                 return;
+            }
+
+            // Login
+            var user = _userService.Login(Username, Password);
+
+            if (user != null)
+            {
+                // Save session (đã sửa namespace)
+                AppSession.CurrentUser = user;
+
+                await App.Current.MainPage.DisplayAlert("Success", "Login success", "OK");
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert("Error", "Invalid login", "OK");
             }
         }
     }
