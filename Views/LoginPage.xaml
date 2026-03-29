@@ -41,13 +41,15 @@
                         Placeholder="Email"
                         Keyboard="Email"
                         HeightRequest="45"
-                        BackgroundColor="#F1F5F9"/>
+                        BackgroundColor="#F1F5F9"
+                        Text="{Binding Email}" />
 
                     <Entry
                         Placeholder="Password"
                         IsPassword="True"
                         HeightRequest="45"
-                        BackgroundColor="#F1F5F9"/>
+                        BackgroundColor="#F1F5F9"
+                        Text="{Binding Password}" />
 
                     <Label
                         Text="Forgot Password?"
@@ -67,19 +69,20 @@
                         BackgroundColor="#00697F"
                         TextColor="White"
                         CornerRadius="12"
-                        FontAttributes="Bold"/>
+                        FontAttributes="Bold"
+                        Command="{Binding LoginCommand}" />
 
                     <!-- Error Message -->
                     <Label
-                        Text="Invalid email or password"
+                        Text="{Binding ErrorMessage}"
                         TextColor="Red"
                         FontSize="12"
-                        IsVisible="False"
+                        IsVisible="{Binding HasError}"
                         HorizontalOptions="Center"/>
 
                     <ActivityIndicator
-                        IsRunning="False"
-                        IsVisible="False"
+                        IsRunning="{Binding IsBusy}"
+                        IsVisible="{Binding IsBusy}"
                         HorizontalOptions="Center"/>
 
                 </VerticalStackLayout>
