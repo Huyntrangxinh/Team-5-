@@ -1,5 +1,7 @@
 ﻿
 using Campus.Models;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Campus.Services
 {
@@ -11,10 +13,10 @@ namespace Campus.Services
             new User { Id = 2, Username = "user", Password = "123", Email = "user@gmail.com" }
         };
 
-        public User Login(string username, string password)
+        public User Login(string email, string password)
         {
             return _users.FirstOrDefault(u =>
-                u.Username == username && u.Password == password);
+                u.Email == email && u.Password == password);
         }
     }
 }
