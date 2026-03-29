@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows.Input;
 
 namespace Campus.ViewModels;
 
@@ -32,5 +33,16 @@ public class ProfileViewModel : INotifyPropertyChanged
             _fullName = value;
             OnPropertyChanged();
         }
+    }
+    public ICommand LogoutCommand { get; }
+
+    public ProfileViewModel()
+    {
+        LogoutCommand = new Command(OnLogout);
+    }
+
+    private async void OnLogout()
+    {
+        await Shell.Current.GoToAsync("//LoginPage");
     }
 }
