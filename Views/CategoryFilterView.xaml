@@ -1,0 +1,91 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Campus.Views.CategoryFilterView"
+             BackgroundColor="#F7FAFC"
+             Title="Filter by Category">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="25"
+            Spacing="15">
+
+            <!-- Title -->
+            <Label
+                Text="Filter Events"
+                FontSize="26"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                TextColor="#00697F"/>
+
+            <!-- Filter Card -->
+            <Border
+                StrokeThickness="0"
+                StrokeShape="RoundRectangle 20"
+                BackgroundColor="White"
+                Padding="20"
+                Shadow="0,4,10,#22000000">
+
+                <VerticalStackLayout Spacing="12">
+
+                    <!-- Category Label -->
+                    <Label
+                        Text="Select Category"
+                        FontSize="14"
+                        TextColor="#00697F"/>
+
+                    <!-- Category Picker -->
+                    <Picker
+                        Title="Choose a category"
+                        ItemsSource="{Binding Categories}"
+                        SelectedItem="{Binding SelectedCategory}"
+                        ItemDisplayBinding="{Binding CategoryName}"
+                        BackgroundColor="#F1F5F9"
+                        HeightRequest="45"/>
+
+                    <!-- Selected Category Feedback -->
+                    <Label
+                        Text="{Binding SelectedCategory.CategoryName}"
+                        FontSize="14"
+                        FontAttributes="Bold"
+                        TextColor="#00697F"
+                        IsVisible="{Binding IsFiltered}"
+                        HorizontalOptions="Center"/>
+
+                    <!-- Apply Filter Button -->
+                    <Button
+                        Text="Apply Filter"
+                        Command="{Binding ApplyFilterCommand}"
+                        BackgroundColor="#00697F"
+                        TextColor="White"
+                        HeightRequest="45"
+                        CornerRadius="12"
+                        FontAttributes="Bold"/>
+
+                    <!-- Clear Filter Button -->
+                    <Button
+                        Text="Clear Filter"
+                        Command="{Binding ClearFilterCommand}"
+                        IsVisible="{Binding IsFiltered}"
+                        BackgroundColor="#F1F5F9"
+                        TextColor="#00697F"
+                        HeightRequest="45"
+                        CornerRadius="12"/>
+
+                </VerticalStackLayout>
+
+            </Border>
+
+            <!-- Empty State -->
+            <Label
+                Text="No categories loaded"
+                FontSize="14"
+                TextColor="Gray"
+                HorizontalOptions="Center"
+                IsVisible="False"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
