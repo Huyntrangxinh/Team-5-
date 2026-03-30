@@ -1,4 +1,4 @@
-using Microsoft.Extensions.Logging;
+﻿﻿using Microsoft.Extensions.Logging;
 using Campus.Services;
 using Campus.ViewModels;
 
@@ -20,6 +20,7 @@ namespace Campus
             builder.Services.AddSingleton<ICategoryService, CategoryService>();
             builder.Services.AddSingleton<IEventService, MockEventService>();
             builder.Services.AddTransient<EventViewModels>();
+            builder.Services.AddTransient<RegistrationViewModel>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
