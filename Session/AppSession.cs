@@ -4,7 +4,7 @@ namespace Campus.Session
 {
     public static class AppSession
     {
-        public static User CurrentUser { get; set; }
+        public static User? CurrentUser { get; set; }
 
         public static bool IsLoggedIn => CurrentUser != null;
 

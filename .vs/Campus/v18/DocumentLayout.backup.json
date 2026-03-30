@@ -7,48 +7,28 @@
       "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\helpers\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:helpers\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\campus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:campus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|c:\\users\\asus\\downloads\\final-project-for-exam\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74CF88D7-5193-9E5B-49EB-4E2715C5EAC1}|Campus.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,22 +38,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 526,
-          "SelectedChildIndex": 37,
+          "SelectedChildIndex": 34,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-29T04:21:29.818Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -208,41 +174,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T10:43:30.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Helpers\\UserSession.cs",
-              "RelativeDocumentMoniker": "Helpers\\UserSession.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Helpers\\UserSession.cs",
-              "RelativeToolTip": "Helpers\\UserSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T10:46:47.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T10:49:31.932Z",
+              "WhenOpened": "2026-03-30T07:50:17.869Z",
               "EditorCaption": ""
             },
             {
@@ -253,100 +193,74 @@
               "RelativeDocumentMoniker": "Views\\ProfilePage.xaml",
               "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\ProfilePage.xaml",
               "RelativeToolTip": "Views\\ProfilePage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-29T04:40:12.417Z",
+              "WhenOpened": "2026-03-30T07:50:12.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
               "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\LoginPage.xaml",
               "RelativeToolTip": "Views\\LoginPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-29T04:40:09.9Z",
+              "WhenOpened": "2026-03-30T07:50:11.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T04:21:34.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T04:13:13.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-29T04:13:08.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\ProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ProfilePage.xaml.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Views\\ProfilePage.xaml.cs",
-              "RelativeToolTip": "Views\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T03:37:06.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\ViewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
               "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\ViewModels\\ProfileViewModel.cs",
               "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T02:06:48.699Z",
+              "WhenOpened": "2026-03-30T07:50:05.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Campus.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Campus.csproj",
-              "RelativeDocumentMoniker": "Campus.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Campus.csproj",
-              "RelativeToolTip": "Campus.csproj",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-29T02:05:45.651Z",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:50:04.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:50:01.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Final-project-for-exam\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:49:59.038Z",
               "EditorCaption": ""
             }
           ]

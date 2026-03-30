@@ -1,7 +1,5 @@
 ﻿
 using Campus.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Campus.Services
 {
@@ -9,8 +7,8 @@ namespace Campus.Services
     {
         private List<User> _users = new List<User>
         {
-            new User { Id = 1, Username = "admin", Password = "123", Email = "admin@gmail.com" },
-            new User { Id = 2, Username = "user", Password = "123", Email = "user@gmail.com" }
+            new User { Id = 1, Username = "admin", Password = "123", Email = "admin@gmail.com", StudentId = "DTC001002003" },
+            new User { Id = 2, Username = "user", Password = "123", Email = "user@gmail.com", StudentId = "DTC004005006" }
         };
 
         public User Login(string email, string password)
