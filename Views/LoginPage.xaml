@@ -41,15 +41,13 @@
                         Placeholder="Email"
                         Keyboard="Email"
                         HeightRequest="45"
-                        BackgroundColor="{Binding EmailBackgroundColor}"
-                        Text="{Binding Email}" />
+                        BackgroundColor="#F1F5F9"/>
 
                     <Entry
                         Placeholder="Password"
                         IsPassword="True"
                         HeightRequest="45"
-                        BackgroundColor="{Binding PasswordBackgroundColor}"
-                        Text="{Binding Password}" />
+                        BackgroundColor="#F1F5F9"/>
 
                     <Label
                         Text="Forgot Password?"
@@ -69,20 +67,45 @@
                         BackgroundColor="#00697F"
                         TextColor="White"
                         CornerRadius="12"
-                        FontAttributes="Bold"
-                        Command="{Binding LoginCommand}" />
+                        FontAttributes="Bold"/>
+
+                    <!-- Register Section -->
+                    <HorizontalStackLayout
+                        HorizontalOptions="Center"
+                        Spacing="5"
+                        Margin="0,10,0,0">
+
+                        <Label
+                            Text="Don't have an account?"
+                            FontSize="12"
+                            TextColor="Gray"/>
+
+                        <Label
+                            Text="Register"
+                            FontSize="12"
+                            TextColor="#00697F"
+                            TextDecorations="Underline"
+                            FontAttributes="Bold">
+
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnRegisterTapped"/>
+                            </Label.GestureRecognizers>
+
+                        </Label>
+
+                    </HorizontalStackLayout>
 
                     <!-- Error Message -->
                     <Label
-                        Text="{Binding ErrorMessage}"
+                        Text="Invalid email or password"
                         TextColor="Red"
                         FontSize="12"
-                        IsVisible="{Binding HasError}"
+                        IsVisible="False"
                         HorizontalOptions="Center"/>
 
                     <ActivityIndicator
-                        IsRunning="{Binding IsBusy}"
-                        IsVisible="{Binding IsBusy}"
+                        IsRunning="False"
+                        IsVisible="False"
                         HorizontalOptions="Center"/>
 
                 </VerticalStackLayout>
