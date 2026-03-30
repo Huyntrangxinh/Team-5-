@@ -21,6 +21,7 @@ namespace Campus
             builder.Services.AddSingleton<IEventService, MockEventService>();
             builder.Services.AddTransient<EventViewModels>();
             builder.Services.AddTransient<RegistrationViewModel>();
+            builder.Services.AddTransient<Views.MyEventsPage>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
