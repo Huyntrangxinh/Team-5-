@@ -29,6 +29,8 @@ namespace Campus
     		builder.Logging.AddDebug();
 #endif
 
+            Routing.RegisterRoute("EventDetailPage", typeof(EventDetailPage));
+
             return builder.Build();
         }
     }
