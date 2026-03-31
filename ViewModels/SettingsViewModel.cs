@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Campus.Services;
+using Campus.Models;
 
 namespace Campus.ViewModels
 {
@@ -13,6 +14,10 @@ namespace Campus.ViewModels
         public SettingsViewModel()
         {
             _settingsService = new SettingsService();
+
+            var settings = _settingsService.GetSettings();
+            _isDarkMode = settings.ThemeMode == ThemeMode.Dark;
+            _isNotificationsEnabled = settings.NotificationsEnabled;
         }
 
         protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
