@@ -32,5 +32,18 @@ namespace Campus.ViewModels
                 OnPropertyChanged();
             }
         }
+
+        private bool _isNotificationsEnabled;
+
+        public bool IsNotificationsEnabled
+        {
+            get => _isNotificationsEnabled;
+            set
+            {
+                if (_isNotificationsEnabled == value) return;
+                _isNotificationsEnabled = value;
+                OnPropertyChanged();
+            }
+        }
     }
 }
