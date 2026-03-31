@@ -6,4 +6,10 @@
              x:DataType="viewmodels:EventDetailViewModel"
              Title="Event Details">
 
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
