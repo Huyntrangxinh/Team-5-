@@ -35,6 +35,15 @@ namespace Campus.ViewModels
                 if (_isDarkMode == value) return;
                 _isDarkMode = value;
                 OnPropertyChanged();
+
+                var mode = value ? ThemeMode.Dark : ThemeMode.Light;
+                _settingsService.SaveThemeMode(mode);
+
+                if (Application.Current != null)
+                {
+                    Application.Current.UserAppTheme =
+                        value ? AppTheme.Dark : AppTheme.Light;
+                }
             }
         }
 
