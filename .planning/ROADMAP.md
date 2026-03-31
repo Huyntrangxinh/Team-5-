@@ -118,4 +118,4 @@ UI-01 ─┬─> UI-02 ─┬─> UI-04
 - Daily standups để track progress
 - Commit sau mỗi task hoàn thành
 - All PRs reviewed by Leader (quanghai2k4)
-- Use commit format: `fix(UI-01): description`
+- Use commit format: `<type>: <short description> on <file>`
