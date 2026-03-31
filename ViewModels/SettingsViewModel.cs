@@ -57,6 +57,7 @@ namespace Campus.ViewModels
                 if (_isNotificationsEnabled == value) return;
                 _isNotificationsEnabled = value;
                 OnPropertyChanged();
+                _settingsService.SaveNotificationsEnabled(value);
             }
         }
     }
