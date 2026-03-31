@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Logging;
 using Campus.Services;
 using Campus.ViewModels;
+using Campus.Views;
 
 namespace Campus
 {
@@ -22,6 +23,7 @@ namespace Campus
             builder.Services.AddTransient<EventViewModels>();
             builder.Services.AddTransient<RegistrationViewModel>();
             builder.Services.AddTransient<EventDetailViewModel>();
+            builder.Services.AddTransient<EventDetailPage>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
