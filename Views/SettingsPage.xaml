@@ -78,10 +78,11 @@
                         FontAttributes="Bold"
                         TextColor="#111827" />
 
-                    <Switch Grid.Column="1" 
-                            IsToggled="{Binding IsNotificationsEnabled, Mode=TwoWay}"
-                            HorizontalOptions="End"
-                            VerticalOptions="Center"/>
+                    <Switch 
+                        Grid.Column="1" 
+                        IsToggled="{Binding IsNotificationsEnabled, Mode=TwoWay}"
+                        HorizontalOptions="End"
+                        VerticalOptions="Center"/>
 
                     <Label
                         Grid.Row="1"
