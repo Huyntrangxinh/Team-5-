@@ -19,6 +19,12 @@ namespace Campus.ViewModels
             var settings = _settingsService.GetSettings();
             _isDarkMode = settings.ThemeMode == ThemeMode.Dark;
             _isNotificationsEnabled = settings.NotificationsEnabled;
+
+            _selectedLanguage = _settingsService.GetLanguage();
+            if (string.IsNullOrWhiteSpace(_selectedLanguage))
+            {
+                _selectedLanguage = SupportedLanguages[0];
+            }
         }
 
         protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
