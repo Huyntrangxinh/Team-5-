@@ -22,6 +22,7 @@ namespace Campus
             builder.Services.AddSingleton<IEventService, MockEventService>();
             builder.Services.AddTransient<EventViewModels>();
             builder.Services.AddTransient<RegistrationViewModel>();
+            builder.Services.AddTransient<Views.RegistrationPage>();
             builder.Services.AddTransient<Views.MyEventsPage>();
             builder.Services.AddTransient<EventDetailViewModel>();
             builder.Services.AddTransient<CategoryViewModel>();
@@ -31,6 +32,7 @@ namespace Campus
 #endif
 
             Routing.RegisterRoute("categoryfilter", typeof(CategoryFilterView));
+            Routing.RegisterRoute("EventRegistrationPage", typeof(Views.RegistrationPage));
 
             return builder.Build();
         }
