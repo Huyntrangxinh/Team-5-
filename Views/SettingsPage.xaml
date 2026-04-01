@@ -115,22 +115,24 @@
                         RowDefinitions="Auto,Auto">
 
                         <Label
-                        Text="App Language"
-                        FontSize="16"
-                        FontAttributes="Bold"
-                        TextColor="#111827"
-                        VerticalOptions="Center" />
+                            Text="App Language"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            TextColor="#111827"
+                            VerticalOptions="Center" />
                         <Picker
-                        Grid.Column="1"
-                        WidthRequest="150"
-                        Title="Select language" />
+                            Grid.Column="1"
+                            WidthRequest="150"
+                            Title="Select language"
+                            ItemsSource="{Binding SupportedLanguages}"
+                            SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}" />
                         <Label
-                        Grid.Row="1"
-                        Grid.ColumnSpan="2"
-                        Margin="0,6,0,0"
-                        Text="Choose the display language for the application."
-                        FontSize="13"
-                        TextColor="#6B7280" />
+                            Grid.Row="1"
+                            Grid.ColumnSpan="2"
+                            Margin="0,6,0,0"
+                            Text="Choose the display language for the application."
+                            FontSize="13"
+                            TextColor="#6B7280" />
                     </Grid>
                 </VerticalStackLayout>
 
