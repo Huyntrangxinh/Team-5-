@@ -343,7 +343,7 @@
                                    Color="#00697F"
                                    HorizontalOptions="Center" />
 
-                <!-- ─── Confirm Button ─── -->
+                <!-- ─── Confirm Button (Team 4 - Registration) ─── -->
                 <Button Text="Confirm Registration"
                         Command="{Binding ConfirmRegistrationCommand}"
                         IsEnabled="{Binding IsLoading, Converter={StaticResource InvertBoolConverter}}"
