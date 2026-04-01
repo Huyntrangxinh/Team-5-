@@ -18,6 +18,11 @@ public partial class EventViewModels : ObservableObject
 		_categoryService = categoryService;
 		_eventService = eventService;
 		_ = LoadDataAsync();
+		MyEventsList.Add(new Event
+		{
+			Title = "TEST EVENT",
+			Description = "NOW IT WILL SHOW"
+		});
 	}
 
 	[ObservableProperty]
@@ -44,7 +49,8 @@ public partial class EventViewModels : ObservableObject
 	[ObservableProperty]
 	private bool _isEmpty;
 
-	public ObservableCollection<Event> EventsList { get; } = new();
+	
+	public ObservableCollection<Event> MyEventsList { get; set; } = new();
 
 	private async Task LoadDataAsync()
 	{
@@ -89,7 +95,18 @@ public partial class EventViewModels : ObservableObject
 			await FilterEventsAsync();
 		}
 	}
+	[RelayCommand]
+	private async Task ApplyFilter()
+	{
+		await FilterEventsAsync();
+	}
 
+	[RelayCommand]
+	private async Task ClearFilter()
+	{
+		SelectedCategory = null;
+		await FilterEventsAsync();
+	}
 	private async Task FilterEventsAsync()
 	{
 		if (SelectedCategory == null)
@@ -112,19 +129,20 @@ public partial class EventViewModels : ObservableObject
 		try
 		{
 			IsBusy = true;
-			EventsList.Clear();
+
+			MyEventsList.Clear(); // ✅ ĐỔI Ở ĐÂY
 
 			var events = await _eventService.GetMyEventsAsync();
 
 			foreach (var e in events)
 			{
-				EventsList.Add(e);
+				MyEventsList.Add(e); // ✅ ĐỔI Ở ĐÂY
 			}
 		}
 		finally
 		{
 			IsBusy = false;
-			IsEmpty = EventsList.Count == 0;
+			IsEmpty = MyEventsList.Count == 0; // ✅ ĐỔI Ở ĐÂY
 		}
 	}
 
@@ -137,8 +155,9 @@ public partial class EventViewModels : ObservableObject
 
 		if (success)
 		{
-			EventsList.Remove(eventItem);
-			IsEmpty = EventsList.Count == 0;
+			MyEventsList.Remove(eventItem); // ✅ ĐỔI Ở ĐÂY
+			IsEmpty = MyEventsList.Count == 0; // ✅ ĐỔI Ở ĐÂY
 		}
 	}
+
 }

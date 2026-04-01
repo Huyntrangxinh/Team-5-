@@ -4,9 +4,20 @@ namespace Campus.Views;
 
 public partial class MyEventsPage : ContentPage
 {
-	public MyEventsPage()
+	public MyEventsPage(EventViewModels vm)
 	{
 		InitializeComponent();
-		BindingContext = new MyEventsViewModel();
+		BindingContext = vm;
+
+		
+	}
+	protected override void OnAppearing()
+	{
+		base.OnAppearing();
+
+		if (BindingContext is EventViewModels vm)
+		{
+			vm.LoadMyEventsCommand.Execute(null);
+		}
 	}
 }

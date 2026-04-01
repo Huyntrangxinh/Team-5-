@@ -55,8 +55,10 @@ public partial class CategoryViewModel : ObservableObject
             FilteredEvents.Add(evt);
         }
     }
+	[RelayCommand]
 
-    public async Task LoadCategoriesAsync()
+
+	public async Task LoadCategoriesAsync()
     {
         var categories = await _categoryService.GetAllCategoriesAsync();
         Categories.Clear();
