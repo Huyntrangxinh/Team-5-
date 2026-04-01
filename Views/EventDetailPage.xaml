@@ -57,7 +57,7 @@
                         FontAttributes="Bold"
                         FontSize="15" />
 
-                <!-- Already Registered Badge -->
+                <!-- Already Registered Status Badge (Team 4) -->
                 <Border IsVisible="{Binding IsRegistered}"
                         StrokeThickness="0"
                         StrokeShape="RoundRectangle 12"
