@@ -110,6 +110,10 @@
                         FontSize="18"
                         FontAttributes="Bold"
                         TextColor="#111827" />
+                    <Grid
+                        ColumnDefinitions="*,Auto"
+                        RowDefinitions="Auto,Auto">
+                    </Grid>
 
 
                 </VerticalStackLayout>
