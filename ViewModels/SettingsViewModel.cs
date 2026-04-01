@@ -69,5 +69,20 @@ namespace Campus.ViewModels
                 "English",    
                 "Vietnamese"
             };
+        public string? SelectedLanguage
+        {
+            get => _selectedLanguage;
+            set
+            {
+                if (_selectedLanguage == value) return;
+                _selectedLanguage = value;
+                OnPropertyChanged();
+
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    _settingsService.SaveLanguage(value);
+                }
+            }
+        }
     }
 }
