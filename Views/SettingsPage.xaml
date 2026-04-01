@@ -55,29 +55,42 @@
                     </Border.Background>
 
                     <VerticalStackLayout Padding="0,35" Spacing="10" HorizontalOptions="Center">
-                        <Ellipse Fill="White" Opacity="0.9" WidthRequest="90" HeightRequest="90" HorizontalOptions="Center" />
+                        <Frame
+    HeightRequest="90"
+    WidthRequest="90"
+    CornerRadius="45"
+    IsClippedToBounds="True"
+    HorizontalOptions="Center"
+    Padding="0"
+    HasShadow="False"
+    BackgroundColor="White">
 
-                        <Label Text="DR. JULIAN VANCE" 
-                               TextColor="White" 
-                               FontSize="24" 
-                               FontFamily="Oswald-Bold" 
-                               HorizontalOptions="Center" />
+                            <Image
+        Source="ictu.png"
+        Aspect="AspectFill"/>
+                        </Frame>
 
-                        <Label Text="Senior Faculty Member" 
-                               TextColor="White" 
-                               FontSize="16" 
-                               FontFamily="EBGaramond-Italic" 
-                               HorizontalOptions="Center" 
-                               Opacity="0.8" />
+                        <Label Text="{Binding FullName}" 
+           TextColor="White" 
+           FontSize="24" 
+           FontFamily="Oswald-Bold" 
+           HorizontalOptions="Center" />
+
+                        <Label Text="{Binding StudentId}" 
+           TextColor="White" 
+           FontSize="16" 
+           FontFamily="EBGaramond-Italic" 
+           HorizontalOptions="Center" 
+           Opacity="0.8" />
 
                         <Button Text="EDIT PROFILE" 
-                                BackgroundColor="White" 
-                                TextColor="{StaticResource OswaldPrimary}" 
-                                FontFamily="Oswald-Regular"
-                                CornerRadius="8" 
-                                HeightRequest="45"
-                                WidthRequest="160" 
-                                Margin="0,15,0,0" />
+           BackgroundColor="White" 
+           TextColor="{StaticResource OswaldPrimary}" 
+           FontFamily="Oswald-Regular"
+           CornerRadius="8" 
+           HeightRequest="45"
+           WidthRequest="160" 
+           Margin="0,15,0,0" />
                     </VerticalStackLayout>
                 </Border>
 
@@ -121,7 +134,11 @@
 
                         <Label Grid.Column="2" Text="LIGHT" TextColor="{StaticResource OswaldPrimary}" 
                                FontAttributes="Bold" FontSize="13" VerticalOptions="Center" Margin="0,0,10,0"/>
-                        <Switch Grid.Column="3" IsToggled="False" Visual="Material" ThumbColor="White" OnColor="{StaticResource OswaldPrimary}"/>
+                        <Switch Grid.Column="3" 
+                IsToggled="{Binding IsDarkMode}" 
+                Visual="Material" 
+                ThumbColor="White" 
+                OnColor="{StaticResource OswaldPrimary}"/>
                     </Grid>
                 </Border>
 
@@ -133,18 +150,7 @@
                 <Shadow Brush="Black" Offset="0,-5" Opacity="0.05" Radius="10" />
             </Border.Shadow>
             <Grid ColumnDefinitions="*, *, *, *">
-                <VerticalStackLayout Grid.Column="0" VerticalOptions="Center" Opacity="0.5">
-                    <Image Source="nav_home.png" HeightRequest="22"/>
-                    <Label Text="HOME" HorizontalOptions="Center" FontSize="10" FontFamily="Oswald-Regular"/>
-                </VerticalStackLayout>
-                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Opacity="0.5">
-                    <Image Source="nav_list.png" HeightRequest="22"/>
-                    <Label Text="ACTIVITIES" HorizontalOptions="Center" FontSize="10" FontFamily="Oswald-Regular"/>
-                </VerticalStackLayout>
-                <VerticalStackLayout Grid.Column="2" VerticalOptions="Center" Opacity="0.5">
-                    <Image Source="nav_bell.png" HeightRequest="22"/>
-                    <Label Text="NOTIFICATIONS" HorizontalOptions="Center" FontSize="10" FontFamily="Oswald-Regular"/>
-                </VerticalStackLayout>
+                
                 <Grid Grid.Column="3">
                     <BoxView Color="{StaticResource OswaldTertiary}" Opacity="0.1" Margin="8,10" CornerRadius="12"/>
                     <VerticalStackLayout VerticalOptions="Center">
