@@ -34,5 +34,10 @@ namespace Campus.Services
         {
             Preferences.Default.Set(NotificationKey, enabled);
         }
+
+        public string GetLanguage()
+        {
+            return Preferences.Default.Get(LanguageKey, "English");
+        }
     }
 }
