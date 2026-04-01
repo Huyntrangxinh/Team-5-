@@ -21,7 +21,8 @@ public partial class EventViewModels : ObservableObject
 		MyEventsList.Add(new Event
 		{
 			Title = "TEST EVENT",
-			Description = "NOW IT WILL SHOW"
+			Description = "NOW IT WILL SHOW",
+			Status = "Upcoming" // 🔥 THÊM DÒNG NÀY
 		});
 	}
 
@@ -136,6 +137,7 @@ public partial class EventViewModels : ObservableObject
 
 			foreach (var e in events)
 			{
+				e.Status = e.Date > DateTime.Now ? "Upcoming" : "Cancelled";
 				MyEventsList.Add(e); // ✅ ĐỔI Ở ĐÂY
 			}
 		}
@@ -159,5 +161,6 @@ public partial class EventViewModels : ObservableObject
 			IsEmpty = MyEventsList.Count == 0; // ✅ ĐỔI Ở ĐÂY
 		}
 	}
+
 
 }
