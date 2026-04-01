@@ -135,14 +135,14 @@
                                         FontAttributes="Bold"
                                         TextColor="#1A202C"
                                         HorizontalOptions="FillAndExpand"/>
-                                    <!-- ✅ Registered badge -->
+                                    <!-- Registered badge -->
                                     <Border IsVisible="{Binding IsRegistered}"
                                             StrokeThickness="0"
                                             StrokeShape="RoundRectangle 10"
                                             BackgroundColor="#DCFCE7"
                                             Padding="8,3"
                                             VerticalOptions="Center">
-                                        <Label Text="✅ Registered"
+                                        <Label Text="Registered"
                                                FontSize="11"
                                                FontAttributes="Bold"
                                                TextColor="#166534" />
