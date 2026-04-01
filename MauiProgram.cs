@@ -24,13 +24,21 @@ namespace Campus
             builder.Services.AddTransient<RegistrationViewModel>();
             builder.Services.AddTransient<Views.MyEventsPage>();
             builder.Services.AddTransient<EventDetailViewModel>();
+ Team-3-Display-Event-images
+            builder.Services.AddTransient<EventDetailPage>();
+
             builder.Services.AddTransient<CategoryViewModel>();
+ main
 
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
 
+ Team-3-Display-Event-images
+            Routing.RegisterRoute("EventDetailPage", typeof(EventDetailPage));
+
             Routing.RegisterRoute("categoryfilter", typeof(CategoryFilterView));
+ main
 
             return builder.Build();
         }
