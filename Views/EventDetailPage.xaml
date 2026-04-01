@@ -63,8 +63,18 @@
                         StrokeShape="RoundRectangle 12"
                         BackgroundColor="#DCFCE7"
                         Padding="14,10">
-                    <HorizontalStackLayout Spacing="8" HorizontalOptions="Center">
-                        <Label Text="✅" FontSize="16" VerticalOptions="Center" />
+                    <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                        <Border StrokeThickness="0"
+                                StrokeShape="RoundRectangle 14"
+                                BackgroundColor="#16A34A"
+                                Padding="6,4"
+                                VerticalOptions="Center">
+                            <Label Text="✓"
+                                   FontSize="13"
+                                   FontAttributes="Bold"
+                                   TextColor="White"
+                                   VerticalOptions="Center" />
+                        </Border>
                         <Label Text="You are already registered"
                                FontSize="13" FontAttributes="Bold"
                                TextColor="#166534" VerticalOptions="Center" />
